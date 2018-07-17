@@ -3,14 +3,20 @@
 <head>
     <meta charset="utf-8" />
     <title>I'm testing TypeScript</title>
-    <script src="author.js"></script>
+    <script src="systemjs/dist/system.js"></script>
 </head>
 <body>
     <script>
-        var author = new Author();
-        author.AuthorName = "Yang Jian";
-        var name = author.AuthorName;
-        alert(author.AuthorName);
+        System.config(
+            {
+                "defaultJSExtensions":true
+            });
+        System.import("author.js").
+            then(function (exports ){
+                var a = new exports.Author();
+                alert(a.CompanyObj.CompanyName = "CSharpCorner");
+            });
+        
     </script>
 
     <h1>This is my first page using TypeScript</h1>

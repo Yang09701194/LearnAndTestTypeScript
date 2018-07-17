@@ -70,7 +70,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HomeBackup.html" />
     <Content Include="Home.html" />
+    <Content Include="systemjs\dist\system.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="author.ts" />
+    <TypeScriptCompile Include="Company.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
