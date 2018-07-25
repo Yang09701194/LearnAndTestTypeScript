@@ -1,2 +1,2 @@
-# LearnAndTestTypeScript
-LearnAndTestTypeScript
+# TypeScript_ReactRedux
+TypeScript_ReactRedux
