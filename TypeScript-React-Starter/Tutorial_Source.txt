@@ -1,0 +1,4 @@
+https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter
+
+
+相關過程我有紀錄在  evernote的  typescript-react-starter  記事
