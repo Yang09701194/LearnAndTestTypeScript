@@ -1,12 +1,13 @@
 
 import * as React from 'react';
+import './Hello.css';
 
-export interface Props {
+export interface IProps {
     name: string;
     enthusiasmLevel?: number;
 }
 
-function Hello({name, enthusiasmLevel = 1} : Props){
+function Hello({name, enthusiasmLevel = 1} : IProps){
     if (enthusiasmLevel <= 0){
         throw new Error('You could be a little more enthusiastic. :D');        
     }
@@ -22,10 +23,12 @@ function Hello({name, enthusiasmLevel = 1} : Props){
 
 export default Hello;
 
-//helpers
+// helpers
 
 function getExclamationMarks(numChars: number){
     return Array(numChars + 1).join('!');
 }
+
+
 
 
